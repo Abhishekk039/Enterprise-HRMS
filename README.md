@@ -3,15 +3,20 @@
 An enterprise-grade, full-stack Human Resource Management System (HRMS) built with **Java 17**, **Spring Boot 3.5**, **Spring Security (Stateless JWT)**, **Flyway Database Migrations**, **MySQL**, and a modern **React + TypeScript + Vite** frontend.
 
 PROJECT PREVIEWS
-Screenshot 2026-09-09 215803.png
 
-Screenshot 2026-09-09 221454.png
+![Dashboard](./Screenshot%202026-09-09%20215803.png)
 
-Screenshot 2026-09-09 221507.png
 
-Screenshot 2026-09-09 221521.png
+![Employee Management](./Screenshot%202026-09-09%20221454.png)
 
-Screenshot 2026-09-09 221536.png
+
+![Attendance](./Screenshot%202026-09-09%20221507.png)
+
+
+![Leave Management](./Screenshot%202026-09-09%20221521.png)
+
+
+![HRMS](./Screenshot%202026-09-09%20221536.png)
 
 ## 🚀 Key Modules & Capabilities
 
