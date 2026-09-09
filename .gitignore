@@ -1,0 +1,67 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Java / Spring Boot
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.tmp
+hs_err_pid*
+replay_pid*
+
+# Maven / Gradle build output
+/hrms/target/
+**/target/
+**/build/
+.gradle/
+.gradle-cache/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Frontend / React / Vite
+/hrms-frontend/node_modules/
+/hrms-frontend/dist/
+/hrms-frontend/dist-ssr/
+/hrms-frontend/coverage/
+/hrms-frontend/.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Docker local data
+postgres-data/
+mysql-data/
+redis-data/
+db-data/
+volumes/
+
+# Database / local artifacts
+*.sqlite
+*.db
+*.bak
+*.orig
+
+# Generated docs / backups
+*.pdf
+*.docx
+*.xlsx
+
+# If you want to keep a few project files checked in, comment these out
+# /hrms/src/main/resources/application.properties
+# /hrms-frontend/.env
