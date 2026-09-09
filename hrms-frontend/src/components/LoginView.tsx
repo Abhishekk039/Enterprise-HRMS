@@ -52,7 +52,10 @@ export const LoginView: React.FC = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'var(--bg-primary)',
+        backgroundImage: "linear-gradient(rgba(8, 10, 20, 0.62), rgba(8, 10, 20, 0.72)), url('/background.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
         padding: '24px',
       }}
     >
@@ -64,6 +67,10 @@ export const LoginView: React.FC = () => {
           padding: '32px',
           borderRadius: 'var(--radius-lg)',
           boxShadow: '0 20px 40px -15px rgba(0, 0, 0, 0.7)',
+          background: 'rgba(15, 23, 42, 0.72)',
+          backdropFilter: 'blur(12px)',
+          WebkitBackdropFilter: 'blur(12px)',
+          border: '1px solid rgba(255, 255, 255, 0.12)',
         }}
       >
         {/* Brand Header */}
